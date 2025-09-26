@@ -1,0 +1,11 @@
+https://miro.com/welcomeonboard/MnMyTVhETzVHMzRza0FjUStiUnJiNjdQSjFMNDNDQXdxN0pGWHM1VE1FTWtuVktwSHRPSDVIeGlmcGdUU2RSZ0REMVBtN0hiR3BiYjlYZjJZaXAzODc4NjJxZ0hyblJjZGJEbTZFVXB4NVpEWmdtVytVcXVHcnVQQUovNHZ4YSt3VHhHVHd5UWtSM1BidUtUYmxycDRnPT0hdjE=?share_link_id=921685110509
+User
+
+[Load Balancer: HAproxy]- Distribution: Round-Robin- Active-Active setup
+
+
+[Server 1]- Web Server: Nginx- Application Server- Application Files (Codebase)- Database: MySQL (Primary)
+[Server 2]- Web Server: Nginx- Application Server- Application Files (Codebase)- Database: MySQL (Replica)
+
+
+Primary-Replica Database Cluster     - Primary handles writes     - Replica handles reads
